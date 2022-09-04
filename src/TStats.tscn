@@ -1,0 +1,137 @@
+[gd_scene format=2]
+
+[node name="stats" type="Panel"]
+self_modulate = Color( 0.65098, 1, 0.698039, 1 )
+margin_right = 1024.0
+margin_bottom = 608.0
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 16.0
+margin_top = 304.0
+margin_right = 208.0
+margin_bottom = 336.0
+rect_pivot_offset = Vector2( 112, 16 )
+text = "Location list"
+align = 1
+valign = 1
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 32.0
+margin_top = 96.0
+margin_right = 128.0
+margin_bottom = 128.0
+text = "STR"
+
+[node name="Button2" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 32.0
+margin_top = 128.0
+margin_right = 128.0
+margin_bottom = 160.0
+text = "AGI"
+
+[node name="Button3" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 32.0
+margin_top = 160.0
+margin_right = 128.0
+margin_bottom = 192.0
+text = "PER"
+
+[node name="Button4" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 32.0
+margin_top = 192.0
+margin_right = 128.0
+margin_bottom = 224.0
+text = "INT"
+
+[node name="Button5" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 32.0
+margin_top = 224.0
+margin_right = 128.0
+margin_bottom = 256.0
+text = "WIS"
+
+[node name="Button6" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 32.0
+margin_top = 256.0
+margin_right = 128.0
+margin_bottom = 288.0
+text = "CHA"
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 32.0
+margin_top = 16.0
+margin_right = 96.0
+margin_bottom = 80.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 112.0
+margin_top = 16.0
+margin_right = 480.0
+margin_bottom = 81.0
+text = "JASIO KOWALSKI
+THIEF LEVEL        10
+NEXT LEVEL         12312312
+COS TAM JESZCZE"
+
+[node name="tabs" type="TabContainer" parent="."]
+margin_left = 640.0
+margin_top = 32.0
+margin_right = 992.0
+margin_bottom = 480.0
+tab_align = 0
+
+[node name="Battle" type="Tabs" parent="tabs"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Skills" type="Tabs" parent="tabs"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Spell" type="Tabs" parent="tabs"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Social" type="Tabs" parent="tabs"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Tech" type="Tabs" parent="tabs"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 16.0
+margin_top = 336.0
+margin_right = 208.0
+margin_bottom = 592.0

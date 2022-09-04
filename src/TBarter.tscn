@@ -1,0 +1,124 @@
+[gd_scene format=2]
+
+[node name="barter" type="Panel"]
+self_modulate = Color( 0.65098, 1, 0.698039, 1 )
+margin_right = 1024.0
+margin_bottom = 608.0
+
+[node name="Button11" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 544.0
+margin_top = 128.0
+margin_right = 992.0
+margin_bottom = 576.0
+text = "7x7 inventory, each 64x64 pixels"
+
+[node name="CheckBox" type="CheckBox" parent="."]
+margin_left = 544.0
+margin_top = 96.0
+margin_right = 624.0
+margin_bottom = 128.0
+text = "Weapon"
+
+[node name="CheckBox2" type="CheckBox" parent="."]
+margin_left = 624.0
+margin_top = 96.0
+margin_right = 704.0
+margin_bottom = 128.0
+text = "Spell"
+
+[node name="CheckBox3" type="CheckBox" parent="."]
+margin_left = 704.0
+margin_top = 96.0
+margin_right = 784.0
+margin_bottom = 128.0
+text = "Armour"
+
+[node name="CheckBox4" type="CheckBox" parent="."]
+margin_left = 784.0
+margin_top = 96.0
+margin_right = 864.0
+margin_bottom = 128.0
+text = "Tech"
+
+[node name="CheckBox5" type="CheckBox" parent="."]
+margin_left = 864.0
+margin_top = 96.0
+margin_right = 944.0
+margin_bottom = 128.0
+text = "Ammo"
+
+[node name="Button12" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 32.0
+margin_top = 128.0
+margin_right = 480.0
+margin_bottom = 576.0
+text = "7x7 inventory, each 64x64 pixels"
+
+[node name="CheckBox6" type="CheckBox" parent="."]
+margin_left = 32.0
+margin_top = 96.0
+margin_right = 112.0
+margin_bottom = 128.0
+text = "Weapon"
+
+[node name="CheckBox7" type="CheckBox" parent="."]
+margin_left = 112.0
+margin_top = 96.0
+margin_right = 192.0
+margin_bottom = 128.0
+text = "Spell"
+
+[node name="CheckBox8" type="CheckBox" parent="."]
+margin_left = 192.0
+margin_top = 96.0
+margin_right = 272.0
+margin_bottom = 128.0
+text = "Armour"
+
+[node name="CheckBox9" type="CheckBox" parent="."]
+margin_left = 272.0
+margin_top = 96.0
+margin_right = 352.0
+margin_bottom = 128.0
+text = "Tech"
+
+[node name="CheckBox10" type="CheckBox" parent="."]
+margin_left = 352.0
+margin_top = 96.0
+margin_right = 432.0
+margin_bottom = 128.0
+text = "Ammo"
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 32.0
+margin_top = 16.0
+margin_right = 96.0
+margin_bottom = 80.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 112.0
+margin_top = 16.0
+margin_right = 480.0
+margin_bottom = 81.0
+text = "JASIO KOWALSKI
+THIEF LEVEL        10
+NEXT LEVEL         12312312
+COS TAM JESZCZE"
+
+[node name="Panel2" type="Panel" parent="."]
+margin_left = 544.0
+margin_top = 16.0
+margin_right = 608.0
+margin_bottom = 80.0
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 624.0
+margin_top = 16.0
+margin_right = 992.0
+margin_bottom = 81.0
+text = "JASIO KOWALSKI
+THIEF LEVEL        10
+NEXT LEVEL         12312312
+COS TAM JESZCZE"

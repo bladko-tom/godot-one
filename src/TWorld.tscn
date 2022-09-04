@@ -1,0 +1,57 @@
+[gd_scene format=2]
+
+[node name="world" type="Panel"]
+self_modulate = Color( 0.65098, 1, 0.698039, 1 )
+margin_right = 1024.0
+margin_bottom = 608.0
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 224.0
+margin_bottom = 416.0
+items = [ "Arrory", null, false, "Vault city", null, false ]
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 32.0
+margin_right = 224.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 112, 16 )
+text = "Location list"
+align = 1
+valign = 1
+
+[node name="Button" type="Button" parent="."]
+margin_left = 32.0
+margin_top = 432.0
+margin_right = 96.0
+margin_bottom = 496.0
+text = "HAND"
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 160.0
+margin_top = 432.0
+margin_right = 224.0
+margin_bottom = 496.0
+text = "ARMOR"
+
+[node name="Button3" type="Button" parent="."]
+margin_left = 32.0
+margin_top = 512.0
+margin_right = 96.0
+margin_bottom = 576.0
+text = "HAND"
+
+[node name="Button4" type="Button" parent="."]
+margin_left = 160.0
+margin_top = 512.0
+margin_right = 224.0
+margin_bottom = 576.0
+text = "SPECIAL"
+
+[node name="Button5" type="Button" parent="."]
+margin_left = 240.0
+margin_top = 16.0
+margin_right = 1008.0
+margin_bottom = 592.0
+text = "WORLD MAP"

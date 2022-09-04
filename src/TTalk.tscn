@@ -1,0 +1,155 @@
+[gd_scene format=2]
+
+[node name="talk" type="Panel"]
+self_modulate = Color( 0.65098, 1, 0.698039, 1 )
+margin_right = 1024.0
+margin_bottom = 608.0
+
+[node name="ItemList2" type="RichTextLabel" parent="."]
+margin_left = 256.0
+margin_top = 128.0
+margin_right = 1008.0
+margin_bottom = 592.0
+bbcode_enabled = true
+bbcode_text = "[color=yellow]JACEK[/color]   
+Ok so what is now ?
+
+[color=red]WACEK[/color]   
+Ok so what is now ?
+
+[color=yellow]JACEK[/color]   
+Ok so what is now ?
+
+[color=red]WACEK[/color]   
+Ok so what is now ?
+"
+text = "JACEK   
+Ok so what is now ?
+
+WACEK   
+Ok so what is now ?
+
+JACEK   
+Ok so what is now ?
+
+WACEK   
+Ok so what is now ?
+"
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 32.0
+margin_top = 16.0
+margin_right = 96.0
+margin_bottom = 80.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 112.0
+margin_top = 16.0
+margin_right = 480.0
+margin_bottom = 81.0
+text = "JASIO KOWALSKI
+THIEF LEVEL        10
+NEXT LEVEL         12312312
+COS TAM JESZCZE"
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 32.0
+margin_top = 96.0
+margin_right = 224.0
+margin_bottom = 128.0
+text = "CHOOSE OPTION"
+align = 1
+valign = 1
+
+[node name="Label4" type="Label" parent="."]
+margin_left = 256.0
+margin_top = 96.0
+margin_right = 512.0
+margin_bottom = 128.0
+text = "CONVERSATION HISTORY"
+align = 1
+valign = 1
+
+[node name="Panel2" type="Panel" parent="."]
+margin_left = 544.0
+margin_top = 16.0
+margin_right = 608.0
+margin_bottom = 80.0
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 624.0
+margin_top = 16.0
+margin_right = 992.0
+margin_bottom = 81.0
+text = "JASIO KOWALSKI
+THIEF LEVEL        10
+NEXT LEVEL         12312312
+COS TAM JESZCZE"
+
+[node name="answers" type="VBoxContainer" parent="."]
+margin_left = 32.0
+margin_top = 128.0
+margin_right = 224.0
+margin_bottom = 480.0
+
+[node name="Button" type="Button" parent="answers"]
+margin_right = 192.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"
+
+[node name="Button2" type="Button" parent="answers"]
+margin_top = 52.0
+margin_right = 192.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"
+
+[node name="Button3" type="Button" parent="answers"]
+margin_top = 104.0
+margin_right = 192.0
+margin_bottom = 152.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"
+
+[node name="Button4" type="Button" parent="answers"]
+margin_top = 156.0
+margin_right = 192.0
+margin_bottom = 204.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"
+
+[node name="Button5" type="Button" parent="answers"]
+margin_top = 208.0
+margin_right = 192.0
+margin_bottom = 256.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"
+
+[node name="Button6" type="Button" parent="answers"]
+margin_top = 260.0
+margin_right = 192.0
+margin_bottom = 308.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"
+
+[node name="Button7" type="Button" parent="answers"]
+margin_top = 312.0
+margin_right = 192.0
+margin_bottom = 360.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"
+
+[node name="Button8" type="Button" parent="answers"]
+margin_top = 364.0
+margin_right = 192.0
+margin_bottom = 412.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"
+
+[node name="Button9" type="Button" parent="answers"]
+margin_top = 416.0
+margin_right = 192.0
+margin_bottom = 464.0
+rect_min_size = Vector2( 192, 48 )
+text = "ANSWER A"

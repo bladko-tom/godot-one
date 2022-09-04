@@ -1,0 +1,52 @@
+[gd_scene format=2]
+
+[node name="quest" type="Panel"]
+self_modulate = Color( 0.65098, 1, 0.698039, 1 )
+margin_right = 1024.0
+margin_bottom = 608.0
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 224.0
+margin_bottom = 576.0
+items = [ "Arrory", null, false, "Vault city", null, false ]
+
+[node name="ItemList2" type="RichTextLabel" parent="."]
+margin_left = 256.0
+margin_top = 16.0
+margin_right = 992.0
+margin_bottom = 300.0
+bbcode_enabled = true
+bbcode_text = "GO there and do this and that and then return to here and there
+
+GO there and do this and that and then return to here and there
+
+GO there and do this and that and then return to here and there
+
+GO there and do this and that and then return to here and there"
+text = "GO there and do this and that and then return to here and there
+
+GO there and do this and that and then return to here and there
+
+GO there and do this and that and then return to here and there
+
+GO there and do this and that and then return to here and there"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 256.0
+margin_right = 448.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 112, 16 )
+text = "Quest list"
+align = 1
+valign = 1
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 32.0
+margin_right = 224.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 112, 16 )
+text = "Location list"
+align = 1
+valign = 1

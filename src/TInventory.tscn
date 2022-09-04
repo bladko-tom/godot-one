@@ -1,0 +1,176 @@
+[gd_scene format=2]
+
+[node name="inventory" type="Panel"]
+self_modulate = Color( 0.65098, 1, 0.698039, 1 )
+margin_right = 1024.0
+margin_bottom = 608.0
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 768.0
+margin_top = 81.0
+margin_right = 832.0
+margin_bottom = 145.0
+text = "HAND"
+
+[node name="Button2" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 848.0
+margin_top = 81.0
+margin_right = 912.0
+margin_bottom = 145.0
+text = "ARMOR"
+
+[node name="Button3" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 928.0
+margin_top = 81.0
+margin_right = 992.0
+margin_bottom = 145.0
+text = "HAND"
+
+[node name="Button11" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 32.0
+margin_top = 128.0
+margin_right = 480.0
+margin_bottom = 576.0
+text = "7x7 inventory, each 64x64 pixels"
+
+[node name="Button4" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 800.0
+margin_top = 161.0
+margin_right = 864.0
+margin_bottom = 225.0
+text = "SPECIAL"
+
+[node name="Button5" type="Button" parent="."]
+self_modulate = Color( 0.968627, 1, 0.764706, 1 )
+margin_left = 896.0
+margin_top = 161.0
+margin_right = 960.0
+margin_bottom = 225.0
+text = "SPECIAL"
+
+[node name="Button6" type="Button" parent="."]
+self_modulate = Color( 0.721569, 0.768627, 0.984314, 1 )
+margin_left = 544.0
+margin_top = 64.0
+margin_right = 608.0
+margin_bottom = 128.0
+text = "SPELL"
+
+[node name="Button7" type="Button" parent="."]
+self_modulate = Color( 0.721569, 0.768627, 0.984314, 1 )
+margin_left = 608.0
+margin_top = 128.0
+margin_right = 672.0
+margin_bottom = 192.0
+rect_pivot_offset = Vector2( 880, -400 )
+text = "SPELL"
+
+[node name="Button8" type="Button" parent="."]
+self_modulate = Color( 0.721569, 0.768627, 0.984314, 1 )
+margin_left = 672.0
+margin_top = 64.0
+margin_right = 736.0
+margin_bottom = 128.0
+rect_pivot_offset = Vector2( 816, -336 )
+text = "SPELL"
+
+[node name="Button9" type="Button" parent="."]
+self_modulate = Color( 0.721569, 0.768627, 0.984314, 1 )
+margin_left = 544.0
+margin_top = 192.0
+margin_right = 608.0
+margin_bottom = 256.0
+rect_pivot_offset = Vector2( 944, -464 )
+text = "SPELL"
+
+[node name="Button10" type="Button" parent="."]
+self_modulate = Color( 0.721569, 0.768627, 0.984314, 1 )
+margin_left = 672.0
+margin_top = 192.0
+margin_right = 736.0
+margin_bottom = 256.0
+rect_pivot_offset = Vector2( 816, -464 )
+text = "SPELL"
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 32.0
+margin_top = 16.0
+margin_right = 96.0
+margin_bottom = 80.0
+
+[node name="CheckBox" type="CheckBox" parent="."]
+margin_left = 32.0
+margin_top = 96.0
+margin_right = 112.0
+margin_bottom = 128.0
+text = "Weapon"
+
+[node name="CheckBox2" type="CheckBox" parent="."]
+margin_left = 112.0
+margin_top = 96.0
+margin_right = 192.0
+margin_bottom = 128.0
+text = "Spell"
+
+[node name="CheckBox3" type="CheckBox" parent="."]
+margin_left = 192.0
+margin_top = 96.0
+margin_right = 272.0
+margin_bottom = 128.0
+text = "Armour"
+
+[node name="CheckBox4" type="CheckBox" parent="."]
+margin_left = 272.0
+margin_top = 96.0
+margin_right = 352.0
+margin_bottom = 128.0
+text = "Tech"
+
+[node name="CheckBox5" type="CheckBox" parent="."]
+margin_left = 352.0
+margin_top = 96.0
+margin_right = 432.0
+margin_bottom = 128.0
+text = "Ammo"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 112.0
+margin_top = 16.0
+margin_right = 480.0
+margin_bottom = 81.0
+text = "JASIO KOWALSKI
+THIEF LEVEL        10
+NEXT LEVEL         12312312
+COS TAM JESZCZE"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 544.0
+margin_top = 16.0
+margin_right = 736.0
+margin_bottom = 48.0
+text = "ACTIVE SPELLS"
+align = 1
+valign = 1
+
+[node name="Label4" type="Label" parent="."]
+margin_left = 544.0
+margin_top = 272.0
+margin_right = 992.0
+margin_bottom = 304.0
+text = "CRAFTING PANEL"
+align = 1
+valign = 1
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 768.0
+margin_top = 16.0
+margin_right = 992.0
+margin_bottom = 48.0
+text = "ACTIVE INVENTORY"
+align = 1
+valign = 1

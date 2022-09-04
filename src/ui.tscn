@@ -1,0 +1,197 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://src/TBottom.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/ui.gd" type="Script" id=2]
+[ext_resource path="res://src/TBattle.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/TStats.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/TInventory.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/TTalk.tscn" type="PackedScene" id=6]
+[ext_resource path="res://src/TWorld.tscn" type="PackedScene" id=7]
+[ext_resource path="res://src/TQuest.tscn" type="PackedScene" id=8]
+[ext_resource path="res://src/TBarter.tscn" type="PackedScene" id=9]
+
+[node name="ui" type="Control"]
+script = ExtResource( 2 )
+
+[node name="back" type="Panel" parent="."]
+self_modulate = Color( 0.580392, 0.580392, 0.580392, 1 )
+margin_right = 1024.0
+margin_bottom = 768.0
+
+[node name="up" type="Panel" parent="."]
+margin_right = 1024.0
+margin_bottom = 32.0
+
+[node name="Button" type="Button" parent="up"]
+margin_left = 768.0
+margin_right = 832.0
+margin_bottom = 32.0
+text = "Menu"
+
+[node name="Button2" type="Button" parent="up"]
+margin_left = 64.0
+margin_right = 128.0
+margin_bottom = 32.0
+text = "Quest"
+
+[node name="Button9" type="Button" parent="up"]
+margin_left = 128.0
+margin_right = 192.0
+margin_bottom = 32.0
+text = "Map"
+
+[node name="Button3" type="Button" parent="up"]
+margin_left = 192.0
+margin_right = 256.0
+margin_bottom = 32.0
+text = "Item"
+
+[node name="Button4" type="Button" parent="up"]
+margin_right = 64.0
+margin_bottom = 32.0
+text = "World"
+
+[node name="Button5" type="Button" parent="up"]
+margin_left = 256.0
+margin_right = 320.0
+margin_bottom = 32.0
+text = "Stats"
+
+[node name="Button7" type="Button" parent="up"]
+margin_left = 704.0
+margin_right = 768.0
+margin_bottom = 32.0
+text = "Sleep"
+
+[node name="Button8" type="Button" parent="up"]
+margin_left = 832.0
+margin_right = 896.0
+margin_bottom = 32.0
+text = "Luck"
+
+[node name="Button6" type="Button" parent="up"]
+margin_left = 896.0
+margin_right = 1024.0
+margin_bottom = 32.0
+text = "Date Time"
+
+[node name="unit" type="HBoxContainer" parent="up"]
+modulate = Color( 0.898039, 1, 0, 1 )
+margin_left = 352.0
+margin_right = 672.0
+margin_bottom = 32.0
+custom_constants/separation = 0
+
+[node name="Button" type="Button" parent="up/unit"]
+margin_right = 32.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "1"
+
+[node name="Button2" type="Button" parent="up/unit"]
+margin_left = 32.0
+margin_right = 64.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "2"
+
+[node name="Button3" type="Button" parent="up/unit"]
+margin_left = 64.0
+margin_right = 96.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "3"
+
+[node name="Button4" type="Button" parent="up/unit"]
+margin_left = 96.0
+margin_right = 128.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "4"
+
+[node name="Button5" type="Button" parent="up/unit"]
+margin_left = 128.0
+margin_right = 160.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "5"
+
+[node name="Button6" type="Button" parent="up/unit"]
+margin_left = 160.0
+margin_right = 192.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "6"
+
+[node name="Button7" type="Button" parent="up/unit"]
+margin_left = 192.0
+margin_right = 224.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "7"
+
+[node name="Button8" type="Button" parent="up/unit"]
+margin_left = 224.0
+margin_right = 256.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "8"
+
+[node name="Button9" type="Button" parent="up/unit"]
+margin_left = 256.0
+margin_right = 288.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "9"
+
+[node name="Button10" type="Button" parent="up/unit"]
+margin_left = 288.0
+margin_right = 320.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 32, 32 )
+text = "10"
+
+[node name="battle" parent="." instance=ExtResource( 3 )]
+visible = false
+margin_top = 32.0
+margin_bottom = 640.0
+
+[node name="inventory" parent="." instance=ExtResource( 5 )]
+visible = false
+margin_top = 32.0
+margin_bottom = 640.0
+
+[node name="quest" parent="." instance=ExtResource( 8 )]
+visible = false
+margin_top = 32.0
+margin_bottom = 640.0
+
+[node name="stats" parent="." instance=ExtResource( 4 )]
+visible = false
+margin_top = 32.0
+margin_bottom = 640.0
+
+[node name="talk" parent="." instance=ExtResource( 6 )]
+visible = false
+margin_top = 32.0
+margin_bottom = 640.0
+
+[node name="world" parent="." instance=ExtResource( 7 )]
+visible = false
+margin_top = 32.0
+margin_bottom = 640.0
+
+[node name="barter" parent="." instance=ExtResource( 9 )]
+visible = false
+margin_top = 32.0
+margin_bottom = 640.0
+
+[node name="bottom" parent="." instance=ExtResource( 1 )]
+margin_top = 640.0
+margin_bottom = 768.0
+
+[connection signal="pressed" from="up/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="up/Button9" to="." method="_on_Button9_pressed"]
+[connection signal="pressed" from="up/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="up/Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="up/Button5" to="." method="_on_Button5_pressed"]

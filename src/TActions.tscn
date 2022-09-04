@@ -1,0 +1,244 @@
+[gd_scene format=2]
+
+[node name="tabs" type="TabContainer"]
+margin_right = 352.0
+margin_bottom = 128.0
+tab_align = 0
+
+[node name="Items" type="Tabs" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Button" type="Button" parent="Items"]
+margin_left = 12.0
+margin_top = 16.0
+margin_right = 76.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of item in left hand"
+text = "HAND"
+
+[node name="Button2" type="Button" parent="Items"]
+margin_left = 76.0
+margin_top = 16.0
+margin_right = 140.0
+margin_bottom = 80.0
+hint_tooltip = "Activate use of armour, if it has any special actions"
+text = "ARMOR"
+
+[node name="Button3" type="Button" parent="Items"]
+margin_left = 140.0
+margin_top = 16.0
+margin_right = 204.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of item in right hand"
+text = "HAND"
+
+[node name="Button4" type="Button" parent="Items"]
+margin_left = 204.0
+margin_top = 16.0
+margin_right = 268.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of item defined as quick slot"
+text = "QUICK"
+
+[node name="Button5" type="Button" parent="Items"]
+margin_left = 268.0
+margin_top = 16.0
+margin_right = 332.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of item defined as quick slot"
+text = "QUICK"
+
+[node name="Skills" type="Tabs" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Button" type="Button" parent="Skills"]
+margin_left = 12.0
+margin_top = 16.0
+margin_right = 76.0
+margin_bottom = 80.0
+hint_tooltip = "Activate action of stealing which is change owner of item without asking owner. May be used to add item to owner inventory."
+text = "STEAL"
+
+[node name="Button2" type="Button" parent="Skills"]
+margin_left = 76.0
+margin_top = 16.0
+margin_right = 140.0
+margin_bottom = 80.0
+hint_tooltip = "Activiate try to open closed containers or doors"
+text = "Lockpick"
+clip_text = true
+
+[node name="Button3" type="Button" parent="Skills"]
+margin_left = 140.0
+margin_top = 16.0
+margin_right = 204.0
+margin_bottom = 80.0
+hint_tooltip = "Activate ability to move slowly without being notice (spotting)."
+text = "SNEAK"
+
+[node name="Button4" type="Button" parent="Skills"]
+margin_left = 204.0
+margin_top = 16.0
+margin_right = 268.0
+margin_bottom = 80.0
+hint_tooltip = "Activate ability to watch for any danger like trap, enemy move etc"
+text = "SPOT"
+
+[node name="Button5" type="Button" parent="Skills"]
+margin_left = 268.0
+margin_top = 16.0
+margin_right = 332.0
+margin_bottom = 80.0
+text = "??"
+
+[node name="Spell" type="Tabs" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Button" type="Button" parent="Spell"]
+margin_left = 12.0
+margin_top = 16.0
+margin_right = 76.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of spell added to this spell slot"
+text = "SLOT A"
+
+[node name="Button2" type="Button" parent="Spell"]
+margin_left = 76.0
+margin_top = 16.0
+margin_right = 140.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of spell added to this spell slot"
+text = "SLOT B"
+
+[node name="Button3" type="Button" parent="Spell"]
+margin_left = 140.0
+margin_top = 16.0
+margin_right = 204.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of spell added to this spell slot"
+text = "SLOT C"
+
+[node name="Button4" type="Button" parent="Spell"]
+margin_left = 204.0
+margin_top = 16.0
+margin_right = 268.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of spell added to this spell slot"
+text = "SLOT D"
+
+[node name="Button5" type="Button" parent="Spell"]
+margin_left = 268.0
+margin_top = 16.0
+margin_right = 332.0
+margin_bottom = 80.0
+hint_tooltip = "Active use of spell added to this spell slot"
+text = "SLOT E"
+
+[node name="Social" type="Tabs" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Button" type="Button" parent="Social"]
+margin_left = 12.0
+margin_top = 16.0
+margin_right = 76.0
+margin_bottom = 80.0
+hint_tooltip = "Activate talking with NPC supported by Speach skill."
+text = "TALK"
+
+[node name="Button2" type="Button" parent="Social"]
+margin_left = 76.0
+margin_top = 16.0
+margin_right = 140.0
+margin_bottom = 80.0
+hint_tooltip = "Activate Trade action with selected NPC"
+text = "TRADE"
+
+[node name="Button3" type="Button" parent="Social"]
+margin_left = 140.0
+margin_top = 16.0
+margin_right = 204.0
+margin_bottom = 80.0
+text = "??"
+
+[node name="Button4" type="Button" parent="Social"]
+margin_left = 204.0
+margin_top = 16.0
+margin_right = 268.0
+margin_bottom = 80.0
+text = "??"
+
+[node name="Button5" type="Button" parent="Social"]
+margin_left = 268.0
+margin_top = 16.0
+margin_right = 332.0
+margin_bottom = 80.0
+text = "??"
+
+[node name="Tech" type="Tabs" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Button" type="Button" parent="Tech"]
+margin_left = 12.0
+margin_top = 16.0
+margin_right = 76.0
+margin_bottom = 80.0
+hint_tooltip = "Activate repair action, try to fix broken items."
+text = "FIX"
+
+[node name="Button2" type="Button" parent="Tech"]
+margin_left = 76.0
+margin_top = 16.0
+margin_right = 140.0
+margin_bottom = 80.0
+text = "SCIENCE"
+
+[node name="Button3" type="Button" parent="Tech"]
+margin_left = 140.0
+margin_top = 16.0
+margin_right = 204.0
+margin_bottom = 80.0
+hint_tooltip = "Activate use science "
+text = "HEAL"
+
+[node name="Button4" type="Button" parent="Tech"]
+margin_left = 204.0
+margin_top = 16.0
+margin_right = 268.0
+margin_bottom = 80.0
+text = "CRAFT"
+
+[node name="Button5" type="Button" parent="Tech"]
+margin_left = 268.0
+margin_top = 16.0
+margin_right = 332.0
+margin_bottom = 80.0
+text = "PILOT"
