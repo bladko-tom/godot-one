@@ -10,7 +10,8 @@
 name: 'Publish to GitHub Pages'
 
 env:
-  GODOT_VERSION: 3.5 # Remember to manually set image to this version below.
+  GODOT_VERSION: 3.4.2 # Remember to manually set image to this version below.
+  EXPORT_NAME: test-project
 
 on:
   workflow_dispatch:
@@ -23,7 +24,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     container:
-      image: barichello/godot-ci:3.5
+      image: barichello/godot-ci:3.4.2
 
     steps:
       - name: Checkout
@@ -37,8 +38,7 @@ jobs:
       - name: Web Build
         run: |
           mkdir -v -p build/web
-          cd $EXPORT_NAME
-          godot -v --export "HTML5" ../build/web/index.html
+          godot -v --export "HTML5" build/web/index.html
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
@@ -51,4 +51,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: build/web # The folder the action should deploy.   
+          folder: build/web # The folder the action should deploy.
